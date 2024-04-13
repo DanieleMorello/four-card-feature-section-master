@@ -1,12 +1,10 @@
-:root {
-  --red: hsl(0, 78%, 62%);
-  --cyan: hsl(180, 62%, 55%);
-  --orange: hsl(34, 97%, 64%);
-  --blue: hsl(212, 86%, 64%);
-  --very-dark-blue: hsl(234, 12%, 34%);
-  --grayish-blue: hsl(229, 6%, 66%);
-  --very-light-gray: hsl(0, 0%, 98%);
-}
+$red: hsl(0, 78%, 62%);
+$cyan: hsl(180, 62%, 55%);
+$orange: hsl(34, 97%, 64%);
+$blue: hsl(212, 86%, 64%);
+$very-dark-blue: hsl(234, 12%, 34%);
+$grayish-blue: hsl(229, 6%, 66%);
+$very-light-gray: hsl(0, 0%, 98%);
 /* COLORI */
 
 .poppins-extralight {
@@ -28,14 +26,63 @@
 }
 /* FONT */
 
-p {
-  font-size: 15px;
-}
+body {
+  background-color: $very-light-gray;
+  main {
+    text-align: center;
+    h1 {
+      color: $grayish-blue;
+      font-size: 1.6rem;
+      margin-top: 4rem;
+      margin-bottom: 0;
+    }
+    h2 {
+      font-size: xx-large;
+      margin: 0.5rem;
+    }
+    p {
+      font-size: 20px;
+      color: hsl(229, 6%, 66%);
+      margin: 1rem;
+      margin-bottom: 4rem;
+    }
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
+    .card {
+      background-color: hsl(0, 0%, 100%);
+      border-top: 4px solid $cyan;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      text-align: left;
+      margin: 1.5rem;
+      padding: 2rem;
+      border-radius: 5px;
+      p {
+        font-size: 16px;
+      }
+      img {
+        margin-left: 13rem;
+        margin-top: 1rem;
+        width: 2.9rem;
+      }
+    }
+    #team-builder {
+      border-top-color: $red;
+    }
+    #karma {
+      border-top-color: $orange;
+    }
+    #calculator {
+      border-top-color: $blue;
+    }
+  }
+
+  footer {
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  }
 }
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
+// LAYOUT MOBILE
