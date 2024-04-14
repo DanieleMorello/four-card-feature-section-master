@@ -7,6 +7,8 @@ $grayish-blue: hsl(229, 6%, 66%);
 $very-light-gray: hsl(0, 0%, 98%);
 /* COLORI */
 
+$font: 15px;
+
 .poppins-extralight {
   font-family: "Poppins", sans-serif;
   font-weight: 200;
@@ -86,3 +88,62 @@ body {
   }
 }
 // LAYOUT MOBILE
+
+@media only screen and (min-width: 1440px) {
+  body {
+    main {
+      .container {
+        width: 670px;
+        position: relative;
+        margin: auto;
+        h1 {
+          font-size: xx-large;
+          margin-top: 92px;
+          margin-bottom: 25px;
+        }
+        h2 {
+          font-size: 2.4rem;
+          font-weight: 600;
+          margin-bottom: 33px;
+        }
+        p {
+          font-size: 23px;
+          margin-bottom: 66px;
+        }
+        .card {
+          width: 357px;
+          height: 251px;
+          h3 {
+            color: $very-dark-blue;
+          }
+          p {
+            font-size: 18px;
+          }
+          img {
+            width: 65px;
+            height: 69px;
+            margin-left: 285px;
+            margin-bottom: 30px;
+          }
+        }
+        #supervisor {
+          position: absolute;
+          top: 425px;
+          left: -365px;
+        }
+        #team-builder {
+          margin: auto;
+        }
+        #karma {
+          margin: 2rem auto;
+        }
+        #calculator {
+          position: absolute;
+          top: 425px;
+          left: 565px;
+        }
+      }
+    }
+  }
+}
+/* DESKTOP */

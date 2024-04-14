@@ -72,4 +72,59 @@ body footer .attribution {
 }
 body footer .attribution a {
   color: hsl(228, 45%, 44%);
-}/*# sourceMappingURL=style.css.map */
+}
+
+@media only screen and (min-width: 1440px) {
+  body main .container {
+    width: 670px;
+    position: relative;
+    margin: auto;
+  }
+  body main .container h1 {
+    font-size: xx-large;
+    margin-top: 92px;
+    margin-bottom: 25px;
+  }
+  body main .container h2 {
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-bottom: 33px;
+  }
+  body main .container p {
+    font-size: 23px;
+    margin-bottom: 66px;
+  }
+  body main .container .card {
+    width: 357px;
+    height: 251px;
+  }
+  body main .container .card h3 {
+    color: hsl(234, 12%, 34%);
+  }
+  body main .container .card p {
+    font-size: 18px;
+  }
+  body main .container .card img {
+    width: 65px;
+    height: 69px;
+    margin-left: 285px;
+    margin-bottom: 30px;
+  }
+  body main .container #supervisor {
+    position: absolute;
+    top: 425px;
+    left: -365px;
+  }
+  body main .container #team-builder {
+    margin: auto;
+  }
+  body main .container #karma {
+    margin: 2rem auto;
+  }
+  body main .container #calculator {
+    position: absolute;
+    top: 425px;
+    left: 565px;
+  }
+}
+/* DESKTOP *//*# sourceMappingURL=style.css.map */
